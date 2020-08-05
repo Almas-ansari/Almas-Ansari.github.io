@@ -1,0 +1,53 @@
+#MainImage {margin-left:auto; margin-right: auto; display: block;}
+
+h1 {text-align: center; color: darkred;}
+
+nav{margin-left: 7rem;margin-right: 7rem;}
+
+.nav ul{text-align: center;font-size: 1.8rem; background-color: whitesmoke;
+  padding: 1.5rem;
+}
+
+.nav li{display: inline; color: grey; margin: 2rem;}
+
+.nav a:hover {
+  color: lightgray;}
+
+.nav a{color: grey; text-decoration: none; }
+
+
+#socialfooter li{display: inline;margin:5rem;
+
+              }
+#flist a{ color: grey; text-decoration: none;}
+#flist a:hover{color: lightgray;}
+
+#socialfooter ul{text-align: center;background-color: whitesmoke;
+padding: 1.5rem 3rem; font-size: 1.4rem;}
+footer{margin-left: 7rem;margin-right: 7rem;}
+
+
+
+.acedmics thead{ background-color: peachpuff;}
+.acedmics tbody{background-color: lightyellow;}
+.acedmics table{border-collapse: collapse;text-align: center;margin-left: auto;
+  margin-right: auto; width: 60rem;height: 4rem;font-size: 1rem;}
+
+.work li{text-align:
+center;padding: 1.2rem;list-style-type: none;
+color: black;font-size: 1.2rem;}
+
+
+
+#projects h3,h4{text-align: center;color: darkblue;}
+
+#Description{text-align: center;color: black;}
+a{text-decoration: none;}
+
+#projects li{color: black;}
+#projects a{color: dimgray;}
+#projects a:hover{color: lightslategrey;}
+
+h2{text-align: center;color: maroon;}
+
+#desc {text-align: center;margin-left: 5rem; margin-right: 5rem;}
