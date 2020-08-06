@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Almas Ansari</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link id="csst" rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
       <img id="MainImage" src="images/bit.png" alt="My Bitmoji">
       <h1 class="heading">Almas Ansari</h1>
+      <button type="button" id='mode' name="butto">DarkMode</button>
       <nav class="nav"><ul class="nav">
 
         <li><a href="index.html">Home</a></li>
@@ -28,6 +29,21 @@
             <li class="socialmedia"><a href="https://www.instagram.com/almax_nxari/">instagram</a></li>
             </ul>
       </footer>
+      <script >
+
+      document.querySelector("#mode").onclick= function () {
+        let value = document.querySelector("#mode").innerHTML;
+      if (value==="DarkMode")
+      {  document.querySelector("#mode").innerHTML= "lightmode";
+      document.querySelector("body").style.backgroundColor = 'grey';}
+      else {
+        document.querySelector("#mode").innerHTML= "DarkMode";
+      document.querySelector("body").style.backgroundColor = 'white';}
+    }
+
+      </script>
+
+
 
 
   </body>
